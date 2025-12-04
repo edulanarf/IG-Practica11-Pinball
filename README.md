@@ -101,18 +101,24 @@ La parte visual del proyecto se encarga de crear el tablero, las pelotas y todos
 El tablero se construye combinando varios modelos 3D:
 
 - **Paredes:** se usan modelos de muralla para delimitar el área del juego y que la pelota rebote correctamente.  
-- **Esquinas curvas:** se crean dos planos curvos, mediante la funcion createCurvedPlane(). Para que no se vean estos planos, hago que no sean visibles y simulo como si hubiesen unos escombros de piedra.
-
+- **Esquinas curvas:** se crean dos planos curvos, mediante la funcion createCurvedPlane(). Para que no se vean estos planos, hago que no sean visibles y simulo como si hubiesen unos escombros de piedra.  
+![Tablero](images/piedras.JPG)  
 ---
 
 ## Pelotas
 
-Las pelotas se representan con esferas 3D que se actualizan en cada frame según la posición del mundo físico. Uso un modelo 3D que simula una bola con pinchos de una típica maza medieval.
+Las pelotas se representan con esferas 3D que se actualizan en cada frame según la posición del mundo físico. Uso un modelo 3D que simula una bola con pinchos de una típica maza medieval.  
 
+![Tablero](images/pelota.JPG)
 ---
 
 ## Flippers
 
 Debido a que no he encontrado un modelo que me guste para los flippers, he usado uno que simplemente le da forma.
+
+![Tablero](images/flipper.JPG)  
+
+
+![Tablero](images/game.JPG)  
 
 
