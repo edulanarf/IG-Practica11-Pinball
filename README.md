@@ -1,15 +1,19 @@
 # Índice
 
-1. Introducción
-2. Arquitectura
-3. Animacion
-4. Físicas
-5. Graficos
+1. [Introducción](#1-introducción)
+2. [Arquitectura](#2-arquitectura)
+3. [Animación](#3-animación)
+4. [Físicas](#4-físicas)
+5. [Gráficos](#5-gráficos)
+6. [Video](#6-video)
+
 
 
 # 1. Introducción
 
-El objetivo del proyecto ha sido recrear la base de el juego "Pinball" utilizando "ammo.js" y por otro lado en vez de utilizar tween.js hago uso de gsap.js.
+El objetivo del proyecto ha sido recrear la base de el juego "Pinball" utilizando "ammo.js" y por otro lado en vez de utilizar tween.js hago uso de gsap.js.  
+
+Para el uso del juego se debe mantener el espacio para lanzar la pelota (dependiendo del tiempo mantenido será mas fuerte o menos fuerte) y por otro lado usar las flechas derecha e izquierda para los flippers.  
 
 # 2. Arquitectura
 La estructura del proyecto se basa en el uso de tres partes principales:
@@ -121,4 +125,7 @@ Debido a que no he encontrado un modelo que me guste para los flippers, he usado
 
 ![Tablero](images/game.JPG)  
 
+## 6. Video
+
+https://drive.google.com/file/d/1tCT6nePxT15uopAAgjskbvI1EBysR5QG/view?usp=sharing
 
